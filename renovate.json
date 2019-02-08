@@ -1,7 +1,23 @@
 {
   "extends": ["config:base"],
+  "labels": ["Renovate 🌴"],
+  "statusCheckVerify": true,
   "automerge": true,
   "major": {
     "automerge": false
   }
+  "packageRules": [
+    {
+      "packagePatterns": ["eslint", "stylelint", "tslint"],
+      "groupName": "lint"
+    },
+    {
+      "packagePatterns": ["babel"],
+      "groupName": "babel"
+    },
+    {
+      "packagePatterns": ["enzyme"],
+      "groupName": "enzyme"
+    }
+  ]
 }
