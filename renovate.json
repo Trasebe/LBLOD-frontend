@@ -8,7 +8,7 @@
   }
   "packageRules": [
     {
-      "packagePatterns": ["eslint", "stylelint", "tslint"],
+      "packagePatterns": ["eslint", "stylelint", "tslint", "prettier"],
       "groupName": "lint"
     },
     {
