@@ -5,11 +5,11 @@
   "automerge": true,
   "major": {
     "automerge": false
-  }
+  },
   "packageRules": [
     {
       "packagePatterns": ["eslint", "stylelint", "tslint", "prettier"],
-      "groupName": "lint"
+      "groupName": "linting"
     },
     {
       "packagePatterns": ["babel"],
